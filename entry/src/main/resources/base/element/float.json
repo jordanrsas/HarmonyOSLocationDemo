@@ -1,0 +1,48 @@
+{
+  "float": [
+    {
+      "name": "textTitleSize",
+      "value": "18fp"
+    },
+    {
+      "name": "logTextSize",
+      "value": "14fp"
+    },
+    {
+      "name": "buttonTextSize",
+      "value": "18fp"
+    },
+    {
+      "name": "textSize",
+      "value": "18fp"
+    },
+    {
+      "name": "fieldTextSize",
+      "value": "16fp"
+    },
+    {
+      "name": "textFieldMinHeight",
+      "value": "36vp"
+    },
+    {
+      "name": "textFieldPadding",
+      "value": "6vp"
+    },
+    {
+      "name": "margin",
+      "value": "16vp"
+    },
+    {
+      "name": "marginS",
+      "value": "8vp"
+    },
+    {
+      "name": "marginXS",
+      "value": "3vp"
+    },
+    {
+      "name": "lineStroke",
+      "value": "5px"
+    }
+  ]
+}

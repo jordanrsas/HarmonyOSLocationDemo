@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:id="$+id:text_helloworld"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:layout_alignment="horizontal_center"
+        ohos:margin="16vp"
+        ohos:text="$string:MainTitle"
+        ohos:text_size="22fp"/>
+
+    <Button
+        ohos:id="$+id:device_location_button"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:background_button"
+        ohos:end_margin="16vp"
+        ohos:padding="8vp"
+        ohos:start_margin="16vp"
+        ohos:text="$string:DeviceLocation"
+        ohos:text_size="18fp"
+        ohos:top_margin="16vp"/>
+
+    <Button
+        ohos:id="$+id:geocoding_button"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:background_button"
+        ohos:end_margin="16vp"
+        ohos:padding="8vp"
+        ohos:start_margin="16vp"
+        ohos:text="$string:Geocoding"
+        ohos:text_size="18fp"
+        ohos:top_margin="16vp"/>
+</DirectionalLayout>

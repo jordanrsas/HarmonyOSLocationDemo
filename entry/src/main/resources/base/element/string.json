@@ -1,0 +1,104 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "OhosLocationDemo"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "MainTitle",
+      "value": "HarmonyOS Location Demo"
+    },
+    {
+      "name": "DeviceLocation",
+      "value": "Device Location Information"
+    },
+    {
+      "name": "Geocoding",
+      "value": "Geocodign and Reverse Geocoding"
+    },
+    {
+      "name": "RequestOnce",
+      "value": "Request Location Once"
+    },
+    {
+      "name": "StartTracking",
+      "value": "Start Tracking"
+    },
+    {
+      "name": "StopTracking",
+      "value": "Stop Tracking"
+    },
+    {
+      "name": "CachedLocation",
+      "value": "Get Cached Location"
+    },
+    {
+      "name": "latitudeLabel",
+      "value": "Latitud:"
+    },
+    {
+      "name": "longitudLabel",
+      "value": "Longitude:"
+    },
+    {
+      "name": "locationNameLabel",
+      "value": "Location Name"
+    },
+    {
+      "name": "getAddressBtnLabel",
+      "value": "Get Address"
+    },
+    {
+      "name": "getAddressFromLocatinBtnLabel",
+      "value": "Get Address From Location"
+    },
+    {
+      "name": "mexicoCityLat",
+      "value": "19.432689"
+    },
+    {
+      "name": "mexicoCityLon",
+      "value": "-99.133238"
+    },
+    {
+      "name": "altitudeLabel",
+      "value": "altitude="
+    },
+    {
+      "name": "accuracyLabel",
+      "value": "accuracy="
+    },
+    {
+      "name": "directionLabel",
+      "value": "direction="
+    },
+    {
+      "name": "addressInfoLabel",
+      "value": "Address Info="
+    },
+    {
+      "name": "placeNameLabel",
+      "value": "Place name="
+    },
+    {
+      "name": "countyLabel",
+      "value": "Country="
+    },
+    {
+      "name": "adminAreaLabel",
+      "value": "Administrative Area="
+    },
+    {
+      "name": "zipCodeLabel",
+      "value": "Zip Code="
+    },
+    {
+      "name": "beijingAirportLabel",
+      "value": "Beijing Daxing International Airport"
+    }
+  ]
+}

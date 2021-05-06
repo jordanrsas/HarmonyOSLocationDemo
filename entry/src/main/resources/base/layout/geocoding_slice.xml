@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent">
+
+    <DirectionalLayout
+        ohos:id="$+id:fields_layout"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:orientation="vertical"
+        ohos:padding="$float:margin">
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:alignment="vertical_center"
+            ohos:orientation="horizontal">
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="0vp"
+                ohos:end_margin="$float:marginXS"
+                ohos:text="$string:latitudeLabel"
+                ohos:text_alignment="end"
+                ohos:text_color="$color:colorBlack"
+                ohos:text_size="$float:textSize"
+                ohos:weight="1"/>
+
+            <TextField
+                ohos:id="$+id:text_field_lat"
+                ohos:height="match_content"
+                ohos:width="0vp"
+                ohos:background_element="$graphic:text_field_background"
+                ohos:min_height="$float:textFieldMinHeight"
+                ohos:padding="$float:textFieldPadding"
+                ohos:text="$string:mexicoCityLat"
+                ohos:text_size="$float:fieldTextSize"
+                ohos:weight="2"/>
+        </DirectionalLayout>
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:alignment="vertical_center"
+            ohos:orientation="horizontal"
+            ohos:top_margin="$float:marginS">
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="0vp"
+                ohos:end_margin="$float:marginXS"
+                ohos:text="$string:longitudLabel"
+                ohos:text_alignment="end"
+                ohos:text_color="$color:colorBlack"
+                ohos:text_size="$float:textSize"
+                ohos:weight="1"/>
+
+            <TextField
+                ohos:id="$+id:text_field_lon"
+                ohos:height="match_content"
+                ohos:width="0vp"
+                ohos:background_element="$graphic:text_field_background"
+                ohos:min_height="$float:textFieldMinHeight"
+                ohos:padding="$float:textFieldPadding"
+                ohos:text="$string:mexicoCityLon"
+                ohos:text_size="$float:fieldTextSize"
+                ohos:weight="2"/>
+        </DirectionalLayout>
+
+        <Button
+            ohos:id="$+id:get_address"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:background_button"
+            ohos:padding="$float:marginS"
+            ohos:text="$string:getAddressBtnLabel"
+            ohos:text_size="$float:buttonTextSize"
+            ohos:top_margin="$float:margin"/>
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:text="$string:locationNameLabel"
+            ohos:text_alignment="center"
+            ohos:text_color="$color:colorBlack"
+            ohos:text_size="$float:textSize"
+            ohos:top_margin="$float:margin"/>
+
+        <TextField
+            ohos:id="$+id:text_field_location_name"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:text_field_background"
+            ohos:min_height="$float:textFieldMinHeight"
+            ohos:multiple_lines="true"
+            ohos:padding="$float:textFieldPadding"
+            ohos:text="$string:beijingAirportLabel"
+            ohos:text_size="$float:fieldTextSize"/>
+
+        <Button
+            ohos:id="$+id:get_address_from_location"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:background_button"
+            ohos:padding="$float:marginS"
+            ohos:text="$string:getAddressFromLocatinBtnLabel"
+            ohos:text_size="$float:buttonTextSize"
+            ohos:top_margin="$float:margin"/>
+    </DirectionalLayout>
+
+    <ScrollView
+        ohos:id="$+id:scroll_view"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:background_element="$color:colorListDivider"
+        ohos:below="$id:fields_layout"
+        ohos:layout_alignment="horizontal_center">
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:orientation="vertical">
+
+            <com.dtse.cjra.locationdemo.log.LogView
+                ohos:id="$+id:log_text"
+                ohos:height="match_parent"
+                ohos:width="match_parent"
+                ohos:multiple_lines="true"
+                ohos:padding="$float:margin"
+                ohos:text_color="$color:colorBlack"
+                ohos:text_size="$float:logTextSize"/>
+        </DirectionalLayout>
+    </ScrollView>
+</DependentLayout>
