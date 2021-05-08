@@ -287,7 +287,14 @@ private String getAddressString(GeoAddress address) {
     return stringBuilder.toString();
 }
 ```
+
+The result of Geociding and Reverse Geocoding is:
+
+![resultreversegeocoding.](/assets/resultreversegeocoding.PNG "resultreversegeocoding.")
+
 You can see the result of the application running next:
+
+
 ![example_gif.](/assets/example_gif.gif "example_gif.")
 
 # Tips and Tricks
@@ -306,7 +313,11 @@ The GeoConvert instance needs to access backend services to obtain information. 
 
 # References
 RequestParam Api Reference: (https://developer.harmonyos.com/en/docs/documentation/doc-references/requestparam-0000001054238901)
+
 Permission Development Guidelines: (https://developer.harmonyos.com/en/docs/documentation/doc-guides/security-permissions-guidelines-0000000000029886#EN-US_TOPIC_0000001072906209__section7431121314439)
+
 HarmonyOS Location: (https://developer.harmonyos.com/en/docs/documentation/doc-guides/device-location-overview-0000000000031896)
+
 Address Geocoding: (https://en.wikipedia.org/wiki/Address_geocoding)
+
 AbilitySlice: (https://developer.harmonyos.com/en/docs/documentation/doc-references/abilityslice-0000001054678680)
