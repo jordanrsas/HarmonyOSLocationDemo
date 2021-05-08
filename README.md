@@ -21,6 +21,7 @@ Since the location information is considered sensitive, your application still n
 ### Create View Layout
 The view that we will do is very simple, we will only add four buttons to represent the request for the location of the device in with the different options that the system provides.
 The resulting view is as follows:
+
 ![Capture.](/assets/Capture34.PNG "Capture.")
 
 Dynamically Request Permission
@@ -208,6 +209,7 @@ private String getLocationString(Location location) {
 **Geocoding**, is the process of taking a text-based description of a location, such as an address or the name of a place, and returning geographic coordinates, frequently latitude/longitude pair, to identify a location on the Earth's surface.
 
 **Reverse geocoding**, on the other hand, converts geographic coordinates to a description of a location, usually the name of a place or an addressable location.
+
 ![geocoding2.](/assets/geocoding2.png "geocoding2.")
 
 The system offers the geocoding and reverse geocoding capabilities, making your application be able to convert coordinates into location information or vice versa. The geocoding information describes a location using several attributes, including the country, administrative region, street, house number, and address, etc.
@@ -217,6 +219,7 @@ The view that we will do is very simple, we will only add some fields to enter l
 
 Then we add a field to enter an address and we can obtain a list of GeoAddress objects.
 The view that we obtain will be the following
+
 ![Capture78.](/assets/Capture78.PNG "Capture78.")
 
 First you have to create a GeoConvert instance by which you can implement all APIs related to the geocoding and reverse geocoding conversion capabilities.
